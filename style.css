@@ -1,0 +1,100 @@
+body{
+    background: whitesmoke !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.image-container, .intro-container {
+    animation: drop 0.9s ease !important;
+    /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); */
+}
+
+@keyframes drop
+{
+/* 0%{
+    opacity: 0;
+    left:500px;
+    top: -500px;
+}
+50%{
+    opacity: 0.5;
+    left: 500px;
+    top: 0px;
+}
+100%{
+    opacity: 1;
+    left: 0px;
+    top: 0px;
+
+} */
+0%{
+    opacity: 0;
+    left:1000px
+}
+100%{
+    opacity: 1;
+    left: 0px;
+}
+}
+.t{
+   font-size: x-large;
+}
+i{
+    font-size: 40px !important;
+   
+    color: black;
+    background: none;
+}
+i:hover{
+    background: transparent;
+    color: rgb(14,81,190); 
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#skills{
+    background: linear-gradient(90deg, rgba(14,81,190,1) 0%, rgba(68,101,156,1) 94%);
+    color: white;
+}
+
+#profile-picture{
+    border-radius: 50%;
+}
+  
+
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+
+  .btn-primary{
+    background: linear-gradient(90deg, rgba(14,81,190,1) 0%, rgba(68,101,156,1) 94%);
+  }
+
+  .btn-primary:hover{
+      background: transparent;
+      color: rgb(14,81,190); 
+      transition: 0.3s ease;
+  }
+
+  ul{
+      list-style: none;
+  }
+
+  .card:hover{
+    /* box-shadow: 10px 10px 20px rgb(204, 204, 204),
+    -10px -10px 20px rgb(204, 204, 204) */
+    
+
+    box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.5),
+    -2px -2px 7px 0px rgba(0,0,0,0.5);
+    transition: 0.3s ease;
+  }
